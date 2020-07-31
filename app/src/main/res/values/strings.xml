@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">About Me</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu ac tortor dignissim convallis aenean et tortor. Interdum velit euismod in pellentesque massa placerat duis ultricies lacus. Cursus eget nunc scelerisque viverra mauris in aliquam. Id diam maecenas ultricies mi eget mauris pharetra et ultrices. Diam sit amet nisl suscipit adipiscing bibendum est. Ut venenatis tellus in metus vulputate eu. Cursus sit amet dictum sit amet justo donec enim diam. Lectus quam id leo in vitae turpis. Aenean sed adipiscing diam donec adipiscing tristique.
+\n\n
+In ante metus dictum at tempor commodo ullamcorper. Euismod lacinia at quis risus sed vulputate. Tellus mauris a diam maecenas sed. Tellus mauris a diam maecenas sed enim. Augue eget arcu dictum varius duis. Pretium lectus quam id leo in vitae turpis massa. Purus in massa tempor nec feugiat nisl. Consectetur adipiscing elit pellentesque habitant. In fermentum et sollicitudin ac orci phasellus. In nibh mauris cursus mattis molestie a. Lectus proin nibh nisl condimentum id venenatis a condimentum. Enim nunc faucibus a pellentesque. Dolor magna eget est lorem ipsum dolor sit amet consectetur. Purus gravida quis blandit turpis cursus in hac habitasse. Amet nulla facilisi morbi tempus iaculis urna id. Fermentum et sollicitudin ac orci. Nunc aliquet bibendum enim facilisis gravida neque convallis. Morbi enim nunc faucibus a. Elit sed vulputate mi sit amet.
+</string>
+    <string name="add">Add a hobby</string>
+    <string name="hobby_title_label">Title</string>
+    <string name="hobby_desc_label">Description</string>
+</resources>
