@@ -27,20 +27,22 @@ class HobbyFormFragment(private val onClick: () -> Unit): DialogFragment() {
     ): View? {
         super.onCreateView(inflater, container, savedInstanceState)
         val binding = FragmentHobbyformBinding.inflate(inflater, container, false)
+
+        binding.apply {
+            submitButton.setOnClickListener {
+                val title: String = hobbyFormTitle.editText?.text.toString()
+                val desc = hobbyFormDesc.editText?.text.toString()
+                val hobby = Hobby(title, desc)
+                HobbiesRepository.addHobby(hobby)
+                onClick()
+                dismiss()
+            }
+        }
         return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        submit_button.setOnClickListener {
-            val title: String = hobby_form_title.editText?.text.toString()
-            val desc = hobby_form_desc.editText?.text.toString()
-            val hobby = Hobby(title, desc)
-            HobbiesRepository.addHobby(hobby)
-            onClick()
-            dismiss()
-        }
-
     }
 
 }
